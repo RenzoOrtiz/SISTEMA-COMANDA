@@ -42,13 +42,13 @@ public class DTOGestionarMesa extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "Producto", "Cantidad", "EstadoComanda", "Subtotal", "Modificar"
+                "Producto", "Cantidad", "EstadoComanda", "Observaciones", "Subtotal", "Modificar"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
