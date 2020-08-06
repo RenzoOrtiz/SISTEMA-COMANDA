@@ -51,7 +51,7 @@ public class DTOMenu extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel1.setText("Agregar Productos");
+        jLabel1.setText("Agregar Comanda");
 
         jTextField1.setText("Buscar producto...");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
