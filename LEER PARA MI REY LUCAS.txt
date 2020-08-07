@@ -1,0 +1,1 @@
+1) Caso de uso "Consultar estado negocio" actor "propietario": Para mi no es un caso de uso, es un requisito no funcional... de la manera que lo vamos a hacer el chaval ya puede consultar.
