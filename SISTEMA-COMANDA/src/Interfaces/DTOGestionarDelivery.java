@@ -39,10 +39,10 @@ public class DTOGestionarDelivery extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, "Modificar", "Cancelar"},
-                {null, null, null, null, null, "Modificar", "Cancelar"},
-                {null, null, null, null, null, "Modificar", "Cancelar"},
-                {null, null, null, null, null, "Modificar", "Cancelar"}
+                {null, null, null, null, null, "Modificar", "Cobrar"},
+                {null, null, null, null, null, "Modificar", "Cobrar"},
+                {null, null, null, null, null, "Modificar", "Cobrar"},
+                {null, null, null, null, null, "Modificar", "Cobrar"}
             },
             new String [] {
                 "Dirección", "Cliente", "Teléfono", "EstadoComanda", "Total", "", ""
@@ -64,10 +64,13 @@ public class DTOGestionarDelivery extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton1)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1))
-                .addContainerGap(18, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton1)
+                            .addComponent(jLabel1))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -77,8 +80,8 @@ public class DTOGestionarDelivery extends javax.swing.JFrame {
                 .addGap(27, 27, 27)
                 .addComponent(jButton1)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(191, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(82, Short.MAX_VALUE))
         );
 
         pack();
