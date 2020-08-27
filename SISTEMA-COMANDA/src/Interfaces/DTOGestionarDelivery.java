@@ -39,13 +39,13 @@ public class DTOGestionarDelivery extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, "Modificar", "Cobrar"},
-                {null, null, null, null, null, "Modificar", "Cobrar"},
-                {null, null, null, null, null, "Modificar", "Cobrar"},
-                {null, null, null, null, null, "Modificar", "Cobrar"}
+                {null, null, null, null, null, "Modificar", null, "Cobrar"},
+                {null, null, null, null, null, "Modificar", null, "Cobrar"},
+                {null, null, null, null, null, "Modificar", null, "Cobrar"},
+                {null, null, null, null, null, "Modificar", null, "Cobrar"}
             },
             new String [] {
-                "Dirección", "Cliente", "Teléfono", "EstadoComanda", "Total", "", ""
+                "Dirección", "Cliente", "Teléfono", "NroComanda", "EstadoComanda", "", "Total", ""
             }
         ));
         jScrollPane1.setViewportView(jTable1);
